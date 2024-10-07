@@ -587,7 +587,7 @@
                 </div>
             </div>
             <div class="justify-center items-center flex mt-14">
-                <button
+                <button type="button"
                     class="px-6 py-3 bg-orenge rounded-xl border-[2px] border-orenge hover:bg-white hover:text-orenge text-black font-semibold text-md raleway mx-auto">Book
                     A Meeting With Our Team!</button>
             </div>
@@ -628,7 +628,7 @@
                     </div>
                 </div>
                 <div class="w-full xl:w-6/12 md:w-6/12 max-sm:mt-6 max-md:mt-6">
-                    <div class="max-w-[565px] px-12 py-12 
+                    <form class="max-w-[565px] px-12 py-12 
                     bg-gradient-to-t from-[#191200] to-[#302200] border-[2px] border-[#F7B103] box rounded-[22px]">
                         <div class="flex justify-between gap-3">
                             <input class="outline-none py-3 w-[50%] bg-[#1A1300] pl-[20px] rounded-[10px]" type="text"
@@ -640,12 +640,12 @@
                             placeholder="Email*">
                         <input class="outline-none py-3 w-full bg-[#1A1300] pl-[20px] rounded-[10px] mt-5" type="text"
                             placeholder="Phone Number*">
-                        <textarea class="outline-none py-3 w-full bg-[#1A1300] pl-[20px] rounded-[10px] mt-5" name="."
+                        <textarea class="outline-none py-3 w-full bg-[#1A1300] pl-[20px] rounded-[10px] mt-5 resize-y min-h-36" name="."
                             id="." placeholder="Drop us a line"></textarea>
                         <button
                             class="py-3 px-6 rounded-[12px] bg-orenge text-black hover:bg-white hover:text-orenge border-[2px] border-orenge mt-10">Send
                             Message</button>
-                    </div>
+                    </form>
                 </div>
             </div>
         </div>
@@ -661,7 +661,7 @@
         </div>
         <div class="container mx-auto w-4/5">
             <div class="clients-slider mt-16">
-                <div class="max-w-[538px]  border-[1px] border-[#474747] rounded-[22px] bg-[#191919] ml-5">
+                <div class="max-w-[588px]  border-[1px] border-[#474747] rounded-[22px] bg-[#191919] ml-5">
                     <img class="mx-auto pt-5" src="./assets/image/last-slider-pic.png" alt="">
                     <div class="justify-center items-center flex">
                         <svg class="mt-4" width="125" height="20" viewBox="0 0 125 20" fill="none"
@@ -693,7 +693,7 @@
                         Jaydon Bator</p>
                     <p class="justify-center items-center flex font-normal text-md font-inter pb-5">Sr. Designer</p>
                 </div>
-                <div class="max-w-[538px]  border-[1px] border-[#474747] rounded-[22px] bg-[#191919] ml-5">
+                <div class="max-w-[588px]  border-[1px] border-[#474747] rounded-[22px] bg-[#191919] ml-5">
                     <img class="mx-auto pt-5" src="./assets/image/last-slider-pic-2.png" alt="last-slider-pic-2">
                     <div class="justify-center items-center flex">
                         <svg class="mt-4" width="125" height="20" viewBox="0 0 125 20" fill="none"
@@ -725,7 +725,7 @@
                         Jaydon Bator</p>
                     <p class="justify-center items-center flex font-normal text-md font-inter pb-5">Sr. Designer</p>
                 </div>
-                <div class="max-w-[538px]  border-[1px] border-[#474747] rounded-[22px] bg-[#191919] ml-5">
+                <div class="max-w-[588px]  border-[1px] border-[#474747] rounded-[22px] bg-[#191919] ml-5">
                     <img class="mx-auto pt-5" src="./assets/image/last-slider-pic.png" alt="">
                     <div class="justify-center items-center flex">
                         <svg class="mt-4" width="125" height="20" viewBox="0 0 125 20" fill="none"
@@ -852,7 +852,7 @@
     </script>
     <script>
         $('.clients-slider').slick({
-            slidesToShow: 2,
+            slidesToShow: 1,
             slidesToScroll: 1,
             autoplay: true,
             autoplaySpeed: 2000,
@@ -861,7 +861,7 @@
                     breakpoint: 1024,
                     settings: {
                         slidesToShow: 2,
-                        slidesToScroll: 2,
+                        slidesToScroll: 1,
                         infinite: true,
                         dots: true
                     }
